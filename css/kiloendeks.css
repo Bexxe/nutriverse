@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+}
+
+.navbar {
+  background-color: #09332f;
+  display: block;
+
+}
+
+.nav-item{
+margin-left: 30px;
+}
+
+.nav-link {
+  color: white !important;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 10px 2   0px;
+  border-radius: 50px;
+  transition: 500ms;
+   font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:hover {
+  color: #09332f !important;   /* Yeşil renk */
+  background-color: white;
+     font-family: "Montserrat", sans-serif;
+     transition: 500ms;
+}
+
+.nav-link.active {
+  color: #09332f !important;
+  background-color: white;
+font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+
+.giris-btn{
+    background-color: white;
+    color: #09332f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 28px; 
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 500ms;
+    font-weight: 600;
+    width: 100%;
+}
+.giris-btn span{
+  position: relative;
+  bottom: 10px;
+}
+.giris-btn i{
+position: relative;
+right: 20px;
+font-size: 40px;
+} 
+.giris-btn:hover{
+background-color: #09332f;
+border: 2px solid white;
+color: white;
+    font-weight: 600;
+transition: 500ms;
+}
+.offcanvas{
+  background-color: #09332f;
+}
+
+.navbar{
+  display: block;
+}
+.app-container{
+  display: none;
+}
+      .giris-btn-sm{
+        display: none;
+      }
+
+      .app-bar {
+    position: fixed; /* absolute yerine fixed olarak değiştirildi */
+    bottom: 0;       /* Ekranın en altına sabitler */
+    left: 0;         /* Tam genişlik için eklendi */
+    right: 0;        /* Tam genişlik için eklendi */
+    background-color: #09332f;
+    padding: 10px 0; /* Dikey padding (iç boşluk) verildi */
+    height: auto;    /* Yüksekliği içeriğe göre ayarlar */
+    z-index: 1000;   /* Diğer elementlerin üzerinde kalmasını sağlar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-item{
+  color: white;
+  font-size: 35px;
+}
+.app-item a{
+  color: white;
+text-decoration: none;
+}
+.app-bar .active i{
+  background-color: white;
+  color: #09332f;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.header{
+    font-size: 40px;
+    color: #09332f;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+
+}
+.endeks-box{
+        background-color: #09332f;
+        padding: 20px;
+        height: 100%;
+        border-radius: 30px;
+
+}
+.text-box input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+            font-family: "Montserrat", sans-serif;
+}
+.text-box label{
+            font-family: "Montserrat", sans-serif;
+            color: white;
+}
+.button-check label{
+              font-family: "Montserrat", sans-serif;
+            color: white;
+}
+.button-box button{
+    width: 100%;
+        width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+            font-family: "Montserrat", sans-serif;
+            background-color: #09332f;
+            color: white;
+            transition: 500ms;
+}
+.button-check button{
+        width: 100%;
+        width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+            font-family: "Montserrat", sans-serif;
+            background-color: #09332f;
+            color: white;
+            transition: 500ms;
+}
+ #sonuc{
+    display: none;
+}
+.sonuc-text{
+                font-family: "Montserrat", sans-serif;
+                color: white;
+                font-size: 25px;
+}
+.sonuc-number{
+                    font-family: "Montserrat", sans-serif;
+                color: white;
+                font-size: 15px;
+}
+.modal-content{
+  background-color: #09332f;
+  color: white;
+}
+.sonuc-box button{
+  margin-top: 20px;
+          width: 100%;
+        width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 2px solid white;
+    background-color: white;
+            font-family: "Montserrat", sans-serif;
+            color:#09332f;
+            transition: 500ms;
+}
+.button-box button:hover{
+background-color: white;
+color: #09332f;
+transition: 500ms;
+}
+@media screen and (max-width: 1199px) {
+.danismanlik-box{
+    height: 210px;
+}
+}
+@media screen and (max-width: 993px) {
+.app-container{
+  display: flex;
+}
+.giris-btn-sm{
+    background-color: white;
+    color: #09332f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 28px; 
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 500ms;
+    font-weight: 600;
+    display: block;
+}
+.giris-btn-sm span{
+  position: relative;
+  bottom: 10px;
+}
+.giris-btn-sm i{
+position: relative;
+right: 20px;
+font-size: 40px;
+} 
+}
+
+
+
+@media screen and (max-width: 767px) {
+.giris-btn-sm{
+    background-color: white;
+    color: #09332f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 28px; 
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 500ms;
+    font-weight: 600;
+}
+.giris-btn-sm span{
+  position: relative;
+  bottom: 10px;
+}
+.giris-btn-sm i{
+position: relative;
+right: 20px;
+font-size: 40px;
+} 
+}
+
+
+@media screen and (max-width: 575px) {
+.giris-btn-sm{
+    background-color: white;
+    color: #09332f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 28px; 
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 500ms;
+    font-weight: 600;
+}
+.endeks-box{
+  border-radius: 0;
+}
+.image img{
+  width: 100%;
+  height: 350px;
+}
+
+}
+@media screen and (max-width: 320px) {
+.giris-btn-sm{
+    background-color: white;
+    color: #09332f;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 0px; 
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 500ms;
+    font-weight: 600;
+    width:100%;
+}
+.giris-btn-sm span{
+  position: relative;
+  bottom: 7px;
+}
+.giris-btn-sm i{
+position: relative;
+right: 0px;
+font-size: 30px;
+} 
+
+}

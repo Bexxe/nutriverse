@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logo/nutriverse-logo.png" width="100" alt=""></a>
+<a href="login.html"><button class="giris-btn-sm" type="submit"><i class="fa-solid fa-circle-user"></i><span>Oturum Aç</span></button></a>
+    <div class=" collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="danismanlik_diyetisyen.html">Danışmanlık</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tarifler.html">Tarifler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Eğitimler</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+<a href="login.html"><button class="giris-btn" type="button"><i class="fa-solid fa-circle-user"></i><span>Oturum Aç</span></button></a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-12 search-container d-flex justify-content-center align-items-center">
+
+  <div class="row search-boxing">
+<div class="text-header">
+Sağlıkta Doğru Adres <br>Güvenin Tek Noktası!
+</div>
+<div class="text-search col-11 col-sm-12 col-md-10 col-lg-6 mx-auto mt-0 mt-sm-4 text-end ">
+     <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="text" placeholder="Tarif,diyetisyen yada şef arayınız">
+</div>
+<div class="button-search col-10 col-sm-12 col-lg-8 mx-auto mt-4">
+<div class="row">
+  <div class="buttons col-12 col-sm-6 col-lg-6 text-md-end">
+<a href="danismanlik_diyetisyen.html"><button type="button">Size Uygun Diyetisyenleri Bul</button></a>
+  </div>
+    <div class="buttons col-12 col-sm-6 col-lg-6 text-md-start">
+<a href="tarifler.html"><button type="button">Popüler Tarifleri Gör</button></a>
+  </div>
+</div>
+</div>
+  </div>
+
+</div>
+</div>
+<div class="row">
+  <div class="col-12 d-flex justify-content-center mt-5">
+    <div class="tiklanan-tarifler-header col-10">
+        En Çok Tıklanan Tarifler
+    </div>
+  </div>
+</div>
+
+<div class="col-12 tarif-container justify-content-center mt-5">
+    <div class="slider-wrapper">
+      <div class="a">
+        <button id="prev-slide" class="slide-button"><i class="fa-solid fa-chevron-left"></i></button>
+</div>
+        <div class="tarifler-viewport">
+            <div class="tarifler">
+<a href="tarif.html">
+                  <div class="tarif-item">
+                    <div class="tarif-image col-12">
+                        <img src="images/tarif_image/kabak-mucver-tarifi-firinda-veya-kizartilmis-kabak-mucveri-nasil-yapilir-1563664225275.jpg" alt="">
+                    </div>
+                    <div class="tarif-header col-12 mt-3">
+                        Fırında Kabak Mücver
+                    </div>
+                    <div class="tarif-yayimlayan col-12 mt-3">
+                        @hasansef
+                    </div>
+                </div>
+</a>
+<a href="tarif.html">
+                  <div class="tarif-item">
+                    <div class="tarif-image col-12">
+                        <img src="images/tarif_image/kabak-mucver-tarifi-firinda-veya-kizartilmis-kabak-mucveri-nasil-yapilir-1563664225275.jpg" alt="">
+                    </div>
+                    <div class="tarif-header col-12 mt-3">
+                        Fırında Kabak Mücver
+                    </div>
+                    <div class="tarif-yayimlayan col-12 mt-3">
+                        @hasansef
+                    </div>
+                </div>
+</a>
+<a href="tarif.html">
+                  <div class="tarif-item">
+                    <div class="tarif-image col-12">
+                        <img src="images/tarif_image/kabak-mucver-tarifi-firinda-veya-kizartilmis-kabak-mucveri-nasil-yapilir-1563664225275.jpg" alt="">
+                    </div>
+                    <div class="tarif-header col-12 mt-3">
+                        Fırında Kabak Mücver
+                    </div>
+                    <div class="tarif-yayimlayan col-12 mt-3">
+                        @hasansef
+                    </div>
+                </div>
+</a>
+<a href="tarif.html">
+                  <div class="tarif-item">
+                    <div class="tarif-image col-12">
+                        <img src="images/tarif_image/kabak-mucver-tarifi-firinda-veya-kizartilmis-kabak-mucveri-nasil-yapilir-1563664225275.jpg" alt="">
+                    </div>
+                    <div class="tarif-header col-12 mt-3">
+                        Fırında Kabak Mücver
+                    </div>
+                    <div class="tarif-yayimlayan col-12 mt-3">
+                        @hasansef
+                    </div>
+                </div>
+</a>
+<a href="tarif.html">
+                  <div class="tarif-item">
+                    <div class="tarif-image col-12">
+                        <img src="images/tarif_image/kabak-mucver-tarifi-firinda-veya-kizartilmis-kabak-mucveri-nasil-yapilir-1563664225275.jpg" alt="">
+                    </div>
+                    <div class="tarif-header col-12 mt-3">
+                        Fırında Kabak Mücver
+                    </div>
+                    <div class="tarif-yayimlayan col-12 mt-3">
+                        @hasansef
+                    </div>
+                </div>
+</a>
+                </div>
+        </div>
+              <div class="a"  >
+        <button id="next-slide" class="slide-button"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+
+<div class="row app-container">
+  <div class="col-12 app-bar d-flex justify-content-center align-items-center">
+    <div class="app-item col-3 col-sm-2 text-center active">
+     <a href="#"> <i class="fa-solid fa-house"></i></a>
+    </div>
+        <div class="app-item col-3 col-sm-2 text-center">
+     <a href="danismanlik_diyetisyen.html"><i class="fa-solid fa-users"></i></a>
+    </div>
+        <div class="app-item col-3 col-sm-2 text-center">
+      <a href="tarifler.html"><i class="fa-solid fa-receipt"></i></a>
+    </div>
+        <div class="app-item col-3 col-sm-2 text-center">
+      <a href="#"><i class="fa-solid fa-user-graduate"></i></a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12 endeks">
+        <div class="endeks-header">
+        Kilo Boy Endeksinizi Hesaplayın
+        </div>
+        <div class="row">
+          <div class="endeks col-12 col-sm-7">
+           <div class="endeks-under">
+            İdeal Kilodamısınız ?
+           </div>
+           <div class="endeks-button mt-3 mb-3">
+            <a href="kiloendeksi.htm"><button>Hesaplamak İçin Tıkla</button></a>
+           </div>
+          </div>
+          <div class="endeks-image col-8 col-sm-5 mx-auto mx-sm-0">
+          <img src="images/kurumsal/sira.png" alt="">
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-12 d-flex justify-content-center mt-5">
+    <div class="tiklanan-tarifler-header col-10">
+        Önerilen Diyetisyenler
+    </div>
+  </div>
+</div>
+<div class="col-12 diyetisyen-container justify-content-center mt-5">
+    <div class="diyet-wrapper">
+      <div class="a">
+        <button id="prev-diyetisyen" class="diyetisyen-button"><i class="fa-solid fa-chevron-left"></i></button>
+</div>
+        <div class="diyetisyenler-viewport">
+            <div class="diyetisyenler">
+<a href="profil_diyetisyen.html">
+                  <div class="diyet-item col-3">
+                  <div class="row">
+                    <div class="diyetisyen-image col-6">
+                    <img src="images/diyetisyen_pp/diyetisyen.jpg" alt="">
+                    </div>
+                      <div class="diyetisyen-bigi col-6 mt-3 mt-sm-5">
+                      <div class="diyetisyen-isim">
+                        Dyt.Melis Yıldız
+                    </div>
+                     <div class="diyetisyen-kadi">
+                      @melisyldz
+                    </div>
+                     <div class="diyetisyen-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="diyetisyen-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="diyet-item col-3">
+                  <div class="row">
+                    <div class="diyetisyen-image col-6">
+                    <img src="images/diyetisyen_pp/diyetisyen.jpg" alt="">
+                    </div>
+                      <div class="diyetisyen-bigi col-6 mt-3 mt-sm-5">
+                      <div class="diyetisyen-isim">
+                        Dyt.Melis Yıldız
+                    </div>
+                     <div class="diyetisyen-kadi">
+                      @melisyldz
+                    </div>
+                     <div class="diyetisyen-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="diyetisyen-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="diyet-item col-3">
+                  <div class="row">
+                    <div class="diyetisyen-image col-6">
+                    <img src="images/diyetisyen_pp/diyetisyen.jpg" alt="">
+                    </div>
+                      <div class="diyetisyen-bigi col-6 mt-3 mt-sm-5">
+                      <div class="diyetisyen-isim">
+                        Dyt.Melis Yıldız
+                    </div>
+                     <div class="diyetisyen-kadi">
+                      @melisyldz
+                    </div>
+                     <div class="diyetisyen-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="diyetisyen-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="diyet-item col-3">
+                  <div class="row">
+                    <div class="diyetisyen-image col-6">
+                    <img src="images/diyetisyen_pp/diyetisyen.jpg" alt="">
+                    </div>
+                      <div class="diyetisyen-bigi col-6 mt-3 mt-sm-5">
+                      <div class="diyetisyen-isim">
+                        Dyt.Melis Yıldız
+                    </div>
+                     <div class="diyetisyen-kadi">
+                      @melisyldz
+                    </div>
+                     <div class="diyetisyen-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="diyetisyen-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="diyet-item col-3">
+                  <div class="row">
+                    <div class="diyetisyen-image col-6">
+                    <img src="images/diyetisyen_pp/diyetisyen.jpg" alt="">
+                    </div>
+                      <div class="diyetisyen-bigi col-6 mt-3 mt-sm-5">
+                      <div class="diyetisyen-isim">
+                        Dyt.Melis Yıldız
+                    </div>
+                     <div class="diyetisyen-kadi">
+                      @melisyldz
+                    </div>
+                     <div class="diyetisyen-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="diyetisyen-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+
+
+                
+                </div>
+        </div>
+              <div class="a"  >
+        <button id="next-diyetisyen" class="diyetisyen-button"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-12 d-flex justify-content-center mt-5">
+    <div class="tiklanan-tarifler-header col-10">
+        Önerilen Şefler
+    </div>
+  </div>
+</div>
+<div class="col-12 sef-container justify-content-center mt-5">
+    <div class="sef-wrapper">
+      <div class="a">
+        <button id="prev-sef" class="sef-button"><i class="fa-solid fa-chevron-left"></i></button>
+</div>
+        <div class="sef-viewport">
+            <div class="sefler">
+<a href="profil_diyetisyen.html">
+                  <div class="sef-item col-3">
+                  <div class="row">
+                    <div class="sef-image col-6">
+                    <img src="images/sef_pp/sef-ramin-nuriyev-lezzetl_a63e.jpg" alt="">
+                    </div>
+                      <div class="sef-bigi col-6 mt-3 mt-sm-5">
+                      <div class="sef-isim">
+                        Şef.Hasan Çelik
+                    </div>
+                     <div class="sef-kadi">
+                      @hasansef
+                    </div>
+                     <div class="sef-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="sef-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="sef-item col-3">
+                  <div class="row">
+                    <div class="sef-image col-6">
+                    <img src="images/sef_pp/sef-ramin-nuriyev-lezzetl_a63e.jpg" alt="">
+                    </div>
+                      <div class="sef-bigi col-6 mt-3 mt-sm-5">
+                      <div class="sef-isim">
+                        Şef.Hasan Çelik
+                    </div>
+                     <div class="sef-kadi">
+                      @hasansef
+                    </div>
+                     <div class="sef-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="sef-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="sef-item col-3">
+                  <div class="row">
+                    <div class="sef-image col-6">
+                    <img src="images/sef_pp/sef-ramin-nuriyev-lezzetl_a63e.jpg" alt="">
+                    </div>
+                      <div class="sef-bigi col-6 mt-3 mt-sm-5">
+                      <div class="sef-isim">
+                        Şef.Hasan Çelik
+                    </div>
+                     <div class="sef-kadi">
+                      @hasansef
+                    </div>
+                     <div class="sef-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="sef-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="sef-item col-3">
+                  <div class="row">
+                    <div class="sef-image col-6">
+                    <img src="images/sef_pp/sef-ramin-nuriyev-lezzetl_a63e.jpg" alt="">
+                    </div>
+                      <div class="sef-bigi col-6 mt-3 mt-sm-5">
+                      <div class="sef-isim">
+                        Şef.Hasan Çelik
+                    </div>
+                     <div class="sef-kadi">
+                      @hasansef
+                    </div>
+                     <div class="sef-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="sef-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+<a href="profil_diyetisyen.html">
+                  <div class="sef-item col-3">
+                  <div class="row">
+                    <div class="sef-image col-6">
+                    <img src="images/sef_pp/sef-ramin-nuriyev-lezzetl_a63e.jpg" alt="">
+                    </div>
+                      <div class="sef-bigi col-6 mt-3 mt-sm-5">
+                      <div class="sef-isim">
+                        Şef.Hasan Çelik
+                    </div>
+                     <div class="sef-kadi">
+                      @hasansef
+                    </div>
+                     <div class="sef-onay">
+                      Sertifika Onaylı <i class="fa-solid fa-user-check"></i>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="sef-aciklama">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsum voluptate quia natus velit suscipit dicta facere, eaque officiis aut ex sed tenetur itaque ea incidunt possimus nemo. Quidem, molestias.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores dolorem consequuntur sint facere rem, corrupti aliquid fugiat quidem omnis nobis voluptatem magni perferendis quam laboriosam animi iusto libero ullam.
+                    </div>
+                  </div>
+                </div>
+</a>
+                
+                </div>
+        </div>
+              <div class="a"  >
+        <button id="next-sef" class="sef-button"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="ilgi-header mt-5 text-center  ">
+Topluluk Kısmında En Çok İlgi Çeken Yazılar
+</div>
+<div class="ilgi-box row">
+<div class="bilgi-item-left col-10 col-sm-6 col-md-6 col-lg-6 col-xl-3 mt-5 mx-auto mx-sm-0">
+Atolyeden sonra yemek yapmak daha eğlenceli oldu
+</div>
+</div>
+<div class="ilgi-box row">
+<div class="bilgi-item-right col-10 col-sm-6 col-md-6 col-lg-6 col-xl-3 mt-5 mx-auto mx-sm-0">
+Atolyeden sonra yemek yapmak daha eğlenceli oldu
+</div>
+</div>
+</div>
+<br><br><br><br><br><br>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
